@@ -5,11 +5,11 @@ import userRouter from './routes/user.route.js';
 import authRouter from './routes/auth.route.js';
 dotenv.config()
 
-mongoose.connect(process.env.MONGO).then(() => {
+mongoose.connect(process.env.MONGO).then(() => {    //imports the string from .env
     console.log('connected to MongoDB');
 }).catch((err) => {
     console.log(err)
-}) //imports the string from .env
+}) 
 
 const app = express();
 

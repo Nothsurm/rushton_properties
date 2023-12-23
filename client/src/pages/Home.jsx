@@ -56,9 +56,9 @@ export default function Home() {
           Find your next <span className='text-slate-500'>dream</span> <br />
           home with us
         </h1>
-        <div className="text-gray-400 text-xs sm:text-sm">
+        <div className="text-gray-500 text-xs sm:text-sm">
           Rushton Properties will help you find your next home. <br />
-          We offer a wide range of luxury properties for you to choose from.
+          We offer a wide range of <span className='text-slate-800 font-semibold'>luxury</span> properties for you to choose from.
         </div>
         <Link to={'/search'} className='text-xs sm:text-sm text-blue-800 font-bold hover:underline'>
           Start browsing...

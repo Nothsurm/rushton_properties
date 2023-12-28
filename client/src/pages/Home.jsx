@@ -90,7 +90,7 @@ export default function Home() {
               </div>
               <div className="flex flex-wrap gap-4">
                 {
-                  rentListings.map((listing) => (
+                  offerListings.map((listing) => (
                     <ListingItem listing={listing} key={listing._id} />
                   ))
                 }

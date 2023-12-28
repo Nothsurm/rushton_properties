@@ -10,6 +10,7 @@ This project utilizes React components and states to fetch data from a database 
 
 ## Additional information
 
+* Json web tokens are used and utilized for security purposes
 * Redux was installed and used for predictable states
 * Insomnia was used for API testing
 * Firebase was used for Google Authentication

@@ -142,13 +142,13 @@ export default function Profile() {
       });
       const data = await res.json()
       if (data.success === false) {
-        console.log(data.message);
+        //console.log(data.message);
         return;
       }
 
       setUserListings((prev) => prev.filter((listing) => listing._id !== listingId));
     } catch (error) {
-      console.log(error.message);
+      //console.log(error.message);
     }
   }
   return (

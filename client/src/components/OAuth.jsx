@@ -29,7 +29,7 @@ export default function OAuth() {
             dispatch(signInSuccess(data));
             navigate('/');  //Takes user to homepage on successful completion of google sign in
         } catch (error) {
-            console.log('could not sign in with google', error)
+            //console.log('could not sign in with google', error)
         }
     }
   return (

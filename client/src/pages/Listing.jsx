@@ -39,7 +39,7 @@ export default function Listing() {
         };
         fetchListing();
     }, [params.listingId]);
-    console.log(loading);
+    //console.log(loading);
     
   return (
     <main>

@@ -17,6 +17,7 @@ export default function Profile() {
   const [showListingsError, setShowListingsError] = useState(false);
   const [userListings, setUserListings] = useState([])
   const dispatch = useDispatch();
+  console.log(currentUser)
   
 
   //firebase storage 

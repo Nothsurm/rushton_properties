@@ -14,6 +14,7 @@ export default function SignUp() {
       [e.target.id]: e.target.value, //eg. {username: michael(whatever user types in username field)}
     });
   };
+  
   const handleSubmit = async (e) => {
     e.preventDefault(); //prevents page refresh
     try {

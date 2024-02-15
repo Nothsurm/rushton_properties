@@ -16,6 +16,7 @@ export default function SignIn() {
       [e.target.id]: e.target.value, //eg. {username: michael(whatever user types in username field)}
     });
   };
+  console.log(formData);
   const handleSubmit = async (e) => {
     e.preventDefault(); //prevents page refresh
     try {
@@ -64,11 +65,19 @@ export default function SignIn() {
         </button>
         <OAuth />
       </form>
-      <div className='flex gap-2 mt-5'>
-        <p>Dont Have an account?</p>
-        <Link to={'/sign-up'}>
-          <span className='text-blue-700 hover:underline'>Sign up</span>
-        </Link>
+      <div className='flex flex-col gap-4 mt-5'>
+        <div className="flex flex-row gap-2">
+          <p>Forgot your password?</p>
+          <Link to={'/forgotPassword'}>
+            <span className='text-blue-700 hover:underline'>Click here</span>
+          </Link>
+        </div>
+        <div className="flex flex-row gap-2">
+          <p>Dont Have an account?</p>
+          <Link to={'/sign-up'}>
+            <span className='text-blue-700 hover:underline'>Sign up</span>
+          </Link>
+        </div>
       </div>
       {error && <p className='text-red-500 mt-5'>{error}</p>}
     </div>

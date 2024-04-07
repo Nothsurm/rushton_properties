@@ -2,6 +2,8 @@
 
 ## A fully functional project written in React for the front-end and Express/Node.js for the back-end
 
+### This website uses a free domain, therefore initial load time may take 30-60 seconds
+
 This project utilizes React components and states to fetch data from a database created in MongoDB. The database is manipulated by the user using CRUD operations. Sign-in and sign-up functionality may be achieved using Googles OAuth. The user may also do the following:
 
 * Update or delete account information and own listings
